@@ -1,5 +1,9 @@
 ---
 title: "Scott Wagner"
+image: images/home_pic.jpeg
+about:
+  template: trestles
+  image-shape: rectangle
 ---
 
 Hello! My name is Scott Wagner. Currently, I am a third year UCSB student majoring in Environmental Studies. Outside of class, I love to surf, climb, hike, camp, and play water polo. Look around my website to learn more!
