@@ -1,9 +1,14 @@
 ---
 title: "Scott Wagner"
 image: images/home_pic.jpeg
+toc: false
 about:
   template: trestles
   image-shape: rectangle
+  links: 
+    - text: Email
+      href: mailto:scottwagner@ucsb.edu
+    - text: GitHub
+      href: https://github.com/ScottWag
 ---
-
-Hello! My name is Scott Wagner. Currently, I am a third year UCSB student majoring in Environmental Studies. Outside of class, I love to surf, climb, hike, camp, and play water polo. Look around my website to learn more!
+Hello! My name is Scott Wagner. Currently, I am a third year UCSB student majoring in Environmental Studies. Outside of class I love to surf, climb, hike, camp, and play water polo. Look around my website to learn more!
