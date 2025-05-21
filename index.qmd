@@ -1,5 +1,4 @@
 ---
-title: "Scott Wagner"
 image: images/home_pic.jpeg
 toc: false
 about:
