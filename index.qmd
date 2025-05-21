@@ -1,11 +1,5 @@
 ---
-title: "ScottWag.github.io"
+title: "Scott Wagner"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Hello! My name is Scott Wagner. Currently, I am a third year UCSB student majoring in Environmental Studies. Outside of class, I love to surf, climb, hike, camp, and play water polo. Look around my website to learn more!
