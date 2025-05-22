@@ -10,6 +10,8 @@ website:
         text: Home
       - about.qmd
       - projects.qmd
+      - photography.qmd
+      - resume.qmd
 
 format:
   html:
