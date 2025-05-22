@@ -12,4 +12,4 @@ about:
       href: https://github.com/ScottWag
 ---
 
-Hello! My name is Scott Wagner. Currently, I am a third year UCSB student majoring in Environmental Studies. Outside of class I love to surf, climb, hike, camp, and play water polo. Look around my website to learn more!
+Hello! My name is Scott Wagner. I am currently a third year Environmental Studies major at UCSB. Outside of class I love to surf, climb, hike, camp, and play water polo. Look around my website to learn more!
