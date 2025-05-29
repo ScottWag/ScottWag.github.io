@@ -11,7 +11,8 @@ website:
       - about.qmd
       - projects.qmd
       - photography.qmd
-      - resume.qmd
+      - href: resume.pdf
+        text: Resume
 
 format:
   html:
