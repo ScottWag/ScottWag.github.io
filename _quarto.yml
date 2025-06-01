@@ -10,7 +10,8 @@ website:
         text: Home
       - about.qmd
       - projects.qmd
-      - photography.qmd
+      - href: photography.qmd
+        text: Photography
       - href: resume.pdf
         text: Resume
 

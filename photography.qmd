@@ -1,5 +1,4 @@
 ---
-title: "Photography"
+title: "Gallery"
+lightbox: true
 ---
-
-Photography coming soon
