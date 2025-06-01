@@ -4,7 +4,15 @@ lightbox: true
 ---
 
 ::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));grid-gap: 1em;"}
-![](images/eden.JPG)
+![](images/eden.JPG){group="my_gallery"}
 
-![](images/devs.JPG)
+![](images/cayucos_pier.jpg){group="my_gallery"}
+
+![](images/devs.JPG){group="my_gallery"}
+
+![](images/slough.jpg){group="my_gallery"}
+
+![](images/hike.jpg){group="my_gallery"}
+
+![](images/walk1.jpg){group="my_gallery"}
 :::
