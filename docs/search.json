@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "About me coming soon"
+    "text": "A short list of what I love to do."
   },
   {
     "objectID": "projects.html",
@@ -54,5 +54,26 @@
     "title": "Scott Wagner",
     "section": "Job Experience",
     "text": "Job Experience\nLifeguard and Swim Instructor (June 2020-June 2024)\nConejo Recreation and Parks District"
+  },
+  {
+    "objectID": "about.html#water-polo",
+    "href": "about.html#water-polo",
+    "title": "About Me",
+    "section": "Water Polo",
+    "text": "Water Polo\nFrom a young age, I tried many different sports, including baseball, basketball, and tennis, but didn’t find a meaningful connection with any of them. It was then that I found water polo, a unique mix of endurance, skill, and teamwork. I was instantly hooked, begging my mom to play on the local club team. This was over 10 years ago, since then I have played for my local high school, community college, and now UCSB on the club team."
+  },
+  {
+    "objectID": "about.html#surfing",
+    "href": "about.html#surfing",
+    "title": "About Me",
+    "section": "Surfing",
+    "text": "Surfing\nIt was through my water polo teammates that I found surfing."
+  },
+  {
+    "objectID": "about.html#rock-climbing",
+    "href": "about.html#rock-climbing",
+    "title": "About Me",
+    "section": "Rock Climbing",
+    "text": "Rock Climbing"
   }
 ]
