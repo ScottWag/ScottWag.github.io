@@ -2,3 +2,9 @@
 title: "Gallery"
 lightbox: true
 ---
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));grid-gap: 1em;"}
+![](images/eden.JPG)
+
+![](images/devs.JPG)
+:::
