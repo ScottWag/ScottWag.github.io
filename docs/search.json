@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "A short list of what I love to do."
+    "text": "A short list of what I love to do.\n\n\n\n\n\n\n\nWater Polo\nFrom a young age, I tried many different sports, including baseball, basketball, and tennis, but didn’t find a meaningful connection with any of them. It was then that I found water polo, a unique mix of endurance, skill, and teamwork. I was instantly hooked, begging my mom to play on the local club team. This was over 10 years ago, since then I have played for my local high school, community college, and now the UCSB club team.\n\n\nTraveling\nFortunately, I have been able to travel to many incredible places, taking in their landscapes and learning about their unique cultures. My personal favorite locations have been Italy, Switzerland, Germany, and Hawaii. I hope to keep exploring in the near future and learn more about environmental opportunities in unfamiliar places.\n\n\n\n\nSurfing"
   },
   {
     "objectID": "projects.html",
@@ -60,14 +60,14 @@
     "href": "about.html#water-polo",
     "title": "About Me",
     "section": "Water Polo",
-    "text": "Water Polo\nFrom a young age, I tried many different sports, including baseball, basketball, and tennis, but didn’t find a meaningful connection with any of them. It was then that I found water polo, a unique mix of endurance, skill, and teamwork. I was instantly hooked, begging my mom to play on the local club team. This was over 10 years ago, since then I have played for my local high school, community college, and now UCSB on the club team."
+    "text": "Water Polo\nFrom a young age, I tried many different sports, including baseball, basketball, and tennis, but didn’t find a meaningful connection with any of them. It was then that I found water polo, a unique mix of endurance, skill, and teamwork. I was instantly hooked, begging my mom to play on the local club team. This was over 10 years ago, since then I have played for my local high school, community college, and now the UCSB club team."
   },
   {
     "objectID": "about.html#surfing",
     "href": "about.html#surfing",
     "title": "About Me",
     "section": "Surfing",
-    "text": "Surfing\nIt was through my water polo teammates that I found surfing."
+    "text": "Surfing"
   },
   {
     "objectID": "about.html#rock-climbing",
@@ -75,5 +75,12 @@
     "title": "About Me",
     "section": "Rock Climbing",
     "text": "Rock Climbing"
+  },
+  {
+    "objectID": "about.html#traveling",
+    "href": "about.html#traveling",
+    "title": "About Me",
+    "section": "Traveling",
+    "text": "Traveling\nFortunately, I have been able to travel to many incredible places, taking in their landscapes and learning about their unique cultures. My personal favorite locations have been Italy, Switzerland, Germany, and Hawaii. I hope to keep exploring in the near future and learn more about environmental opportunities in unfamiliar places."
   }
 ]
