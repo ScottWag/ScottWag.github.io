@@ -17,9 +17,44 @@ lightbox: true
 
 ![Devereux lagoon](images/walk1.jpg){group="my_gallery"}
 
-![Side barn](images/side_barn.jpeg){group="my_gallery"}
+![Side of barn](images/side_barn.jpeg){group="my_gallery"}
 
 ![Barn](images/barn.jpeg){group="my_gallery"}
 :::
 
 ## Photo Map
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#Set up chunk for photo map
+
+library(sf)
+library(dplyr)
+library(leaflet)
+library(htmltools)
+library(rnaturalearth)
+library(leaflet.extras)
+
+#Set up data frame with points for each photo
+
+photos <- data.frame(
+  name = c("East beach", "Cayucos pier", "Devereux", "Reserve", "Limekiln","Devereux lagoon","Side of barn", "Barn"), 
+  lon = c(34.41686,35.4494,34.4092,34.417546,36.016423,34.413540,34.414030, 34.414376), 
+  lat = c(-119.66439,-120.908,-119.871836,-119.874152,-121.514503,-119.877838,-119.869558,-119.869793))
+
+#Transform data frame from plain to spatial
+photos <- photos %>% 
+  sf :: st_as_sf(coords = c("lat", "lon"), crs = 4326)
+
+#Prepare leaflet plot 
+lplot <- leaflet :: leaflet(data = photos) %>% 
+  leaflet :: addTiles() %>% 
+  leaflet :: addMarkers()
+
+lplot #Displays plot
+
+```
+
+
