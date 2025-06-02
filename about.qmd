@@ -21,5 +21,4 @@ A short list of what I love to do.
 ![](images/monte.jpg){group="my_gallery"}
 
 ![](images/surf.jpeg){group="my_gallery"}
-
 :::
