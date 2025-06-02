@@ -1,26 +1,25 @@
 ---
-title: "Gallery"
 lightbox: true
 ---
 
-::: {layout-ncol=2}
+## Gallery
 
-![](images/eden.JPG){group="my_gallery"} 
+::: {layout-ncol="2"}
+![East beach](images/eden.JPG){group="my_gallery"}
 
-![](images/cayucos_pier.jpg){group="my_gallery"}
+![Cayucos pier](images/cayucos_pier.jpg){group="my_gallery"}
 
-![](images/devs.JPG){group="my_gallery"}
+![Devereux](images/devs.JPG){group="my_gallery"}
 
+![Reserve](images/slough.jpg){group="my_gallery"}
 
-![](images/slough.jpg){group="my_gallery"}
+![Limekiln](images/hike.jpg){group="my_gallery"}
 
+![Devereux lagoon](images/walk1.jpg){group="my_gallery"}
 
-![](images/hike.jpg){group="my_gallery"}
+![Side barn](images/side_barn.jpeg){group="my_gallery"}
 
-![](images/walk1.jpg){group="my_gallery"}
-
-![](images/side_barn.jpeg){group="my_gallery"}
-
-![](images/barn.jpeg){group="my_gallery"}
-
+![Barn](images/barn.jpeg){group="my_gallery"}
 :::
+
+## Photo Map

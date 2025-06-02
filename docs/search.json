@@ -16,9 +16,9 @@
   {
     "objectID": "photography.html",
     "href": "photography.html",
-    "title": "Gallery",
+    "title": "Scott Wagner",
     "section": "",
-    "text": ":::\n{style=“display: grid;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));grid-gap: 1em;”}\n  :::"
+    "text": "East beach\n\n\n\n\n\n\n\nCayucos pier\n\n\n\n\n\n\n\n\n\nDevereux\n\n\n\n\n\n\n\nReserve\n\n\n\n\n\n\n\n\n\nLimekiln\n\n\n\n\n\n\n\nDevereux lagoon\n\n\n\n\n\n\n\n\n\nSide barn\n\n\n\n\n\n\n\nBarn"
   },
   {
     "objectID": "index.html",
@@ -82,5 +82,19 @@
     "title": "About Me",
     "section": "Traveling",
     "text": "Traveling\nFortunately, I have been able to travel to many incredible places, taking in their landscapes and learning about their unique cultures. My personal favorite locations have been Italy, Switzerland, Germany, and Hawaii. I hope to keep exploring in the near future and learn more about environmental opportunities in unfamiliar places."
+  },
+  {
+    "objectID": "photography.html#photo-map",
+    "href": "photography.html#photo-map",
+    "title": "Scott Wagner",
+    "section": "Photo Map",
+    "text": "Photo Map"
+  },
+  {
+    "objectID": "photography.html#gallery",
+    "href": "photography.html#gallery",
+    "title": "Scott Wagner",
+    "section": "",
+    "text": "East beach\n\n\n\n\n\n\n\nCayucos pier\n\n\n\n\n\n\n\n\n\nDevereux\n\n\n\n\n\n\n\nReserve\n\n\n\n\n\n\n\n\n\nLimekiln\n\n\n\n\n\n\n\nDevereux lagoon\n\n\n\n\n\n\n\n\n\nSide barn\n\n\n\n\n\n\n\nBarn"
   }
 ]
