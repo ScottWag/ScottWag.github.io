@@ -22,7 +22,7 @@ lightbox: true
 ![Barn](images/barn.jpeg){group="my_gallery"}
 :::
 
-## Photo Map
+## Interactive Photo Map
 
 ```{r}
 #| echo: false
@@ -51,9 +51,10 @@ photos <- photos %>%
 #Prepare leaflet plot 
 lplot <- leaflet :: leaflet(data = photos) %>% 
   leaflet :: addTiles() %>% 
-  leaflet :: addMarkers()
+  addMarkers(popup = ~htmltools::htmlEscape(name))
 
 lplot #Displays plot
+
 
 ```
 
