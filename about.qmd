@@ -16,9 +16,9 @@ A short list of what I love to do.
 +---------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ::: {layout-ncol="3"}
-![](images/polo.jpeg){group="my_gallery"}
+![Ventura college water polo](images/polo.jpeg){group="my_gallery"}
 
-![](images/monte.jpg){group="my_gallery"}
+![Monteacuto delle Alpi, Italy](images/italy.jpeg){group="my_gallery"}
 
-![](images/surf.jpeg){group="my_gallery"}
+![Ventura point](images/surf.jpeg){group="my_gallery"}
 :::
