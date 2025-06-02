@@ -3,16 +3,24 @@ title: "Gallery"
 lightbox: true
 ---
 
-::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));grid-gap: 1em;"}
-![](images/eden.JPG){group="my_gallery"}
+::: {layout-ncol=2}
+
+![](images/eden.JPG){group="my_gallery"} 
 
 ![](images/cayucos_pier.jpg){group="my_gallery"}
 
 ![](images/devs.JPG){group="my_gallery"}
 
+
 ![](images/slough.jpg){group="my_gallery"}
+
 
 ![](images/hike.jpg){group="my_gallery"}
 
 ![](images/walk1.jpg){group="my_gallery"}
+
+![](images/side_barn.jpeg){group="my_gallery"}
+
+![](images/barn.jpeg){group="my_gallery"}
+
 :::

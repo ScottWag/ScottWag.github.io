@@ -18,7 +18,7 @@
     "href": "photography.html",
     "title": "Gallery",
     "section": "",
-    "text": "![]mages/cayucos_pier.jpg){group=“my_gallery”}"
+    "text": ":::\n{style=“display: grid;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));grid-gap: 1em;”}\n  :::"
   },
   {
     "objectID": "index.html",
