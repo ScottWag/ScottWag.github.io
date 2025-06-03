@@ -20,7 +20,7 @@ format:
     theme: 
     - minty 
     - styles.scss
-    mainfont: Newsreader
+    mainfont: Oswald
     toc: true
     page-layout: full
 
