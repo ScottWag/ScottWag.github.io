@@ -57,5 +57,3 @@ lplot #Displays plot
 
 
 ```
-
-
