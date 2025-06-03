@@ -24,6 +24,8 @@ lightbox: true
 
 ## Interactive Photo Map
 
+Sites displayed by caption name
+
 ```{r}
 #| echo: false
 #| message: false

@@ -8,4 +8,4 @@ date: 11/27/2024
 image: /images/preview.jpeg
 ---
 
-<iframe src="tijuana_paper.pdf" width="100%" height="800px"></iframe>')
+<iframe src="tijuana_paper.pdf" width="100%" height="800px"></iframe>
