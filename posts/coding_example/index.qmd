@@ -12,4 +12,79 @@ image: /images/coding_preview.jpeg
 
 Figure created using RStudio in order to display differences in Tussock height (cm) measured between sites (burned and unburned). Site variables are differentiated by color, burned (green) and unburned (blue), with mean and standard error overlayed.
 
-## Code
+## Code and Output
+
+```{r}
+#| message: false
+#| warning: false
+
+#Read in packages
+library(tidyverse)
+library(janitor)
+library(readr)
+library(flextable)
+library(dplyr)
+library(effectsize)
+library(ggplot2)
+
+
+tussocks <- read_csv("2016ARFTussockHeight.csv")
+
+tussocks_clean <- 
+  read.csv("2016ARFTussockHeight.csv") %>% # Loads the data
+  clean_names() %>% # Cleans column names
+  mutate(site = recode(site, # Recodes site values
+                       "Sev" = "Burned",
+                       "Unb" = "Unburned"))
+
+# Color for each site
+site_colors <- c("Burned" = "seagreen",
+                 "Unburned" = "blue") 
+# Initialize ggplot
+ggplot(tussocks_clean, aes(x = site, y = average_moss_cm, color = site)) +
+  # Raw data points (jittered horizontally)
+  geom_jitter( 
+    width = 0.2, # Horizontal spread
+    height = 0, # No vertical jitter
+    shape = 1, # Open circles
+    size = 3, #larger than default
+    alpha = 0.5, #50% tranparency
+    show.legend = FALSE # No legend entry
+  ) +
+  # Mean points
+  stat_summary(
+    fun = mean, # Calculate group means
+    geom = "point", #Display as points
+    size = 4, # Larger than data points
+    show.legend = FALSE #No legend entry
+  ) +
+  # Standard error bars
+  stat_summary(
+    fun.data = mean_se, # Calculate mean ± standard error
+    geom = "errorbar", #Display as error bars
+    width = 0.2, #Width of error bar caps
+    linewidth = 1, #Thickness of error bars
+    show.legend = FALSE #No legend entry
+  ) +
+  # Apply custom colors
+  scale_color_manual(values = site_colors) +
+  # Labels and theme
+  labs(
+    title = "Tussock Height by Site", #Title
+    subtitle = "Scott Wagner", #Subtitle label
+    x = "Site", #y-axis label
+    y = "Tussock Height (cm)" #x-axis label
+  ) +
+  theme_classic() +
+  theme(
+    panel.background = element_rect(fill = "white"), # plot area white
+    plot.background = element_rect(fill = "white"), #background white
+    panel.grid = element_blank(), #remove all gridlines
+    legend.position = "none",
+    #Text formatting
+    axis.text = element_text(size = 12, color = "black"),
+    axis.title = element_text(size = 14),
+    plot.title = element_text(size = 16, face = "bold"),
+    plot.subtitle = element_text(size = 12)
+  )
+```

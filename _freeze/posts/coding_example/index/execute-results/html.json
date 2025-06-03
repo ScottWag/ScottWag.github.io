@@ -1,0 +1,17 @@
+{
+  "hash": "a91e3313edcb955959f92a4d3619dcb4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Creating a Figure in RStudio\"\ndescription: ENVS 193DS - Midterm, Problem 3g\nauthor: \n  - name: Scott Wagner\n    url: https://scottwag.github.io/\ndate: 04-30-2025\nimage: /images/coding_preview.jpeg\n---\n\n## Explanation\n\nFigure created using RStudio in order to display differences in Tussock height (cm) measured between sites (burned and unburned). Site variables are differentiated by color, burned (green) and unburned (blue), with mean and standard error overlayed.\n\n## Code and Output\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#Read in packages\nlibrary(tidyverse)\nlibrary(janitor)\nlibrary(readr)\nlibrary(flextable)\nlibrary(dplyr)\nlibrary(effectsize)\nlibrary(ggplot2)\n\n\ntussocks <- read_csv(\"2016ARFTussockHeight.csv\")\n\ntussocks_clean <- \n  read.csv(\"2016ARFTussockHeight.csv\") %>% # Loads the data\n  clean_names() %>% # Cleans column names\n  mutate(site = recode(site, # Recodes site values\n                       \"Sev\" = \"Burned\",\n                       \"Unb\" = \"Unburned\"))\n\n# Color for each site\nsite_colors <- c(\"Burned\" = \"seagreen\",\n                 \"Unburned\" = \"blue\") \n# Initialize ggplot\nggplot(tussocks_clean, aes(x = site, y = average_moss_cm, color = site)) +\n  # Raw data points (jittered horizontally)\n  geom_jitter( \n    width = 0.2, # Horizontal spread\n    height = 0, # No vertical jitter\n    shape = 1, # Open circles\n    size = 3, #larger than default\n    alpha = 0.5, #50% tranparency\n    show.legend = FALSE # No legend entry\n  ) +\n  # Mean points\n  stat_summary(\n    fun = mean, # Calculate group means\n    geom = \"point\", #Display as points\n    size = 4, # Larger than data points\n    show.legend = FALSE #No legend entry\n  ) +\n  # Standard error bars\n  stat_summary(\n    fun.data = mean_se, # Calculate mean ± standard error\n    geom = \"errorbar\", #Display as error bars\n    width = 0.2, #Width of error bar caps\n    linewidth = 1, #Thickness of error bars\n    show.legend = FALSE #No legend entry\n  ) +\n  # Apply custom colors\n  scale_color_manual(values = site_colors) +\n  # Labels and theme\n  labs(\n    title = \"Tussock Height by Site\", #Title\n    subtitle = \"Scott Wagner\", #Subtitle label\n    x = \"Site\", #y-axis label\n    y = \"Tussock Height (cm)\" #x-axis label\n  ) +\n  theme_classic() +\n  theme(\n    panel.background = element_rect(fill = \"white\"), # plot area white\n    plot.background = element_rect(fill = \"white\"), #background white\n    panel.grid = element_blank(), #remove all gridlines\n    legend.position = \"none\",\n    #Text formatting\n    axis.text = element_text(size = 12, color = \"black\"),\n    axis.title = element_text(size = 14),\n    plot.title = element_text(size = 16, face = \"bold\"),\n    plot.subtitle = element_text(size = 12)\n  )\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
