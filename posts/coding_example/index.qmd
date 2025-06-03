@@ -1,0 +1,8 @@
+---
+title: "Coding example"
+description: Coding example description
+author: 
+  - name: Scott Wagner
+    url: https://scottwag.github.io/
+date: 06-02-2025
+---
