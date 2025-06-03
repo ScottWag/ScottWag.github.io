@@ -11,7 +11,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Creating a Figure in RStudio\n\n\nENVS 193DS - Midterm, Problem 3b\n\n\n\n\n\nApr 30, 2025\n\n\nScott Wagner\n\n\n\n\n\n\n\n\n\n\n\n\nResearch paper\n\n\nTijuana River Valley: A Study of How Pollution Effects Marine Life\n\n\n\n\n\nNov 27, 2024\n\n\nScott Wagner\n\n\n\n\n\nNo matching items"
+    "text": "Creating a Figure in RStudio\n\n\nENVS 193DS - Midterm, Problem 3g\n\n\n\n\n\nApr 30, 2025\n\n\nScott Wagner\n\n\n\n\n\n\n\n\n\n\n\n\nResearch paper\n\n\nTijuana River Valley: A Study of How Pollution Effects Marine Life\n\n\n\n\n\nNov 27, 2024\n\n\nScott Wagner\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "photography.html",
@@ -103,5 +103,26 @@
     "title": "Scott Wagner",
     "section": "Interactive Photo Map",
     "text": "Interactive Photo Map"
+  },
+  {
+    "objectID": "posts/coding_example/index.html",
+    "href": "posts/coding_example/index.html",
+    "title": "Creating a Figure in RStudio",
+    "section": "",
+    "text": "Figure created using RStudio in order to display differences in Tussock height (cm) measured between sites (burned and unburned). Site variables are differentiated by color, burned (green) and unburned (blue), with mean and standard error overlayed."
+  },
+  {
+    "objectID": "posts/coding_example/index.html#explanation",
+    "href": "posts/coding_example/index.html#explanation",
+    "title": "Creating a Figure in RStudio",
+    "section": "",
+    "text": "Figure created using RStudio in order to display differences in Tussock height (cm) measured between sites (burned and unburned). Site variables are differentiated by color, burned (green) and unburned (blue), with mean and standard error overlayed."
+  },
+  {
+    "objectID": "posts/coding_example/index.html#code",
+    "href": "posts/coding_example/index.html#code",
+    "title": "Creating a Figure in RStudio",
+    "section": "Code",
+    "text": "Code"
   }
 ]
