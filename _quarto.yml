@@ -17,8 +17,10 @@ website:
 
 format:
   html:
-    theme: minty
-    css: styles.css
+    theme: 
+    - minty 
+    - styles.scss
+    mainfont: Oswald
     toc: true
     page-layout: full
 
