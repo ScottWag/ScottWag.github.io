@@ -1,9 +1,12 @@
 ---
 title: "Research paper"
-description: Research paper descripetion
-author: 
+description: "Tijuana River Valley: A Study of How Pollution Effects Marine Life"
+author:
   - name: Scott Wagner
     url: https://scottwag.github.io/
-date: 06-02-2025
+date: 11/27/2024
+image: /images/preview.jpeg
 ---
+
+
 
